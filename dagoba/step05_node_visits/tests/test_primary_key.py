@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from ..dagoba import Dagoba
-from . import fixtures
+from .dagoba import Dagoba
+import fixtures
 
 
 class PrimaryKeyTest(TestCase, fixtures.TestMixin):

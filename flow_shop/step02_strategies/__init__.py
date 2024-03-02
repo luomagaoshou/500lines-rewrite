@@ -1,5 +1,5 @@
-from . import reader
-from .problem import Problem
+import reader
+from problem import Problem
 
 
 def main():

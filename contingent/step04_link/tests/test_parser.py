@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from .common import parse_test_file
+from common import parse_test_file
 
 
 class ParserTest(TestCase):

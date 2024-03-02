@@ -1,11 +1,11 @@
 from functools import partial
 from unittest import TestCase
 
-from .. import reader
-from ..plan import Plan
-from ..problem import Problem
-from ..algorithms import find_neighbors as finders
-from ..algorithms import choose_neighbor as choosers
+from . import reader
+from .plan import Plan
+from .problem import Problem
+from .algorithms import find_neighbors as finders
+from .algorithms import choose_neighbor as choosers
 
 
 def create_test_plan():

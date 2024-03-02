@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from .common import transform_test_file, html_lines
+from common import transform_test_file, html_lines
 
 
 class TransformerTest(TestCase):

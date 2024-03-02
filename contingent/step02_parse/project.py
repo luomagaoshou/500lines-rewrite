@@ -2,8 +2,8 @@ import os
 import shutil
 import sys
 
-from .core import BuildContext, Task, AstDoc
-from .parser import parse_file
+from core import BuildContext, Task, AstDoc
+from parser import parse_file
 
 
 class Project:

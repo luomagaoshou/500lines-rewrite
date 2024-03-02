@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from ..core import CacheFile
-from ..utils import relative_of
+from .core import CacheFile
+from .utils import relative_of
 
 
 class CacheFileTest(TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from .test_parser import ParserTest
+from test_parser import ParserTest
 
 
 def main():

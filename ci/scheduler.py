@@ -4,9 +4,9 @@ import time
 from threading import Thread
 import multiprocessing as mp
 
-from .models import Project
-from .agent import Agent
-from . import vcs
+from models import Project
+from agent import Agent
+import vcs
 
 
 class Scheduler(Thread):

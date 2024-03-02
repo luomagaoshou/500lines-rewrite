@@ -1,8 +1,8 @@
 import random
 from unittest import TestCase
 
-from ..binary_tree import BinaryTree, Node, ValueRef, NodeRef, ADDR_NONE
-from .. import storage
+from .binary_tree import BinaryTree, Node, ValueRef, NodeRef, ADDR_NONE
+from . import storage
 
 
 class NodeTest(TestCase):

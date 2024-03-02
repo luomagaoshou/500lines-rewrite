@@ -6,8 +6,8 @@ import uuid
 from threading import Thread
 import multiprocessing as mp
 
-from .models import Project, BuildResult, TaskResult
-from . import vcs
+from models import Project, BuildResult, TaskResult
+import vcs
 
 
 def run_external(builder, cmd: str) -> str:

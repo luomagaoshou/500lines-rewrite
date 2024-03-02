@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ..dagoba import Dagoba
+from .dagoba import Dagoba
 
 
 class EagerQueryTest(TestCase):

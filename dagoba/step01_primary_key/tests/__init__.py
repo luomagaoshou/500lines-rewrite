@@ -1,7 +1,7 @@
 import unittest
 
-from .test_db_model import DbModelTest
-from .test_primary_key import PrimaryKeyTest
+from test_db_model import DbModelTest
+from test_primary_key import PrimaryKeyTest
 
 
 def main():

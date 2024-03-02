@@ -4,7 +4,7 @@ from threading import Thread
 
 from flask import Flask, render_template
 
-from .models import Database, TaskResult, LintIssue, UnitTestResult
+from models import Database, TaskResult, LintIssue, UnitTestResult
 
 
 class ArtifactHandler:

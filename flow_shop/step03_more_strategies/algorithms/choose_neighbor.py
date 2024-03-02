@@ -1,6 +1,6 @@
 import random
 
-from ..plan import Plan
+from .plan import Plan
 
 
 def rand(plan, candidates):

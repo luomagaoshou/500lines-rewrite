@@ -1,7 +1,7 @@
 import random
 from itertools import combinations, permutations
 
-from .. import params
+from . import params
 
 
 def rand(ctx, plan, num=1):

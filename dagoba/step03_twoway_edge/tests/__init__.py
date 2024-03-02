@@ -1,8 +1,8 @@
 import unittest
 
-from .test_db_model import DbModelTest
-from .test_primary_key import PrimaryKeyTest
-from .test_eager_query import EagerQueryTest
+from test_db_model import DbModelTest
+from test_primary_key import PrimaryKeyTest
+from test_eager_query import EagerQueryTest
 
 
 def main():

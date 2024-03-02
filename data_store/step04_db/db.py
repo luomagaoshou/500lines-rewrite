@@ -1,7 +1,7 @@
 import contextlib
 
-from . import storage
-from .binary_tree import BinaryTree
+import storage
+from binary_tree import BinaryTree
 
 
 class DB:

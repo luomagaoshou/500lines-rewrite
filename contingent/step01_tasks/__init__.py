@@ -1,7 +1,7 @@
 import os
 import sys
 
-from .project import Project
+from project import Project
 
 
 def main():

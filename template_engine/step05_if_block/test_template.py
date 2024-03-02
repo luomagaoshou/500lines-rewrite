@@ -1,6 +1,6 @@
 import unittest
 
-from .template import Template, TemplateEngine, tokenize, parse_expr, \
+from template import Template, TemplateEngine, tokenize, parse_expr, \
     Text, Expr, Comment, For, EndFor, If, ElseIf, Else, EndIf
 
 

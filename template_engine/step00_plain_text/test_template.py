@@ -1,6 +1,6 @@
 import unittest
 
-from .template import Template
+from template import Template
 
 
 class TemplateTest(unittest.TestCase):

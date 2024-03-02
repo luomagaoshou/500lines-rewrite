@@ -1,7 +1,7 @@
-from ..core import AstDoc, Code
-from ..parser import parse_file
-from ..transformer import transform
-from ..utils import relative_of
+from .core import AstDoc, Code
+from .parser import parse_file
+from .transformer import transform
+from .utils import relative_of
 
 
 def parse_test_file(file_name: str) -> AstDoc:

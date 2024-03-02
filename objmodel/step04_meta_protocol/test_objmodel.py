@@ -1,7 +1,7 @@
 import math
 import unittest
 
-from .objmodel import define_class, create_instance, is_instance, Object, Type
+from objmodel import define_class, create_instance, is_instance, Object, Type
 
 
 class ObjModelTest(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from .objmodel import Class, Instance
+from objmodel import Class, Instance
 
 
 class ObjModelTest(unittest.TestCase):

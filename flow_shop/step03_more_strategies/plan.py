@@ -1,5 +1,5 @@
-from . import reader
-from .utils import shape
+import reader
+from utils import shape
 
 
 class Plan:

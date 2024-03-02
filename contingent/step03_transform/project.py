@@ -2,9 +2,9 @@ import os
 import shutil
 import sys
 
-from .core import BuildContext, Task, AstDoc, Code
-from .parser import parse_file
-from .transformer import transform
+from core import BuildContext, Task, AstDoc, Code
+from parser import parse_file
+from transformer import transform
 
 
 class Project:

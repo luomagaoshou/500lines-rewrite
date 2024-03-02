@@ -2,7 +2,7 @@ import os
 import shutil
 import sys
 
-from .core import BuildContext, Task
+from core import BuildContext, Task
 
 
 class Project:

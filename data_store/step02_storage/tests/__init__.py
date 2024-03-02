@@ -1,7 +1,7 @@
 import unittest
 
-from .test_binary_tree import BinaryTreeTest
-from .test_storage import MemoryStorageTest, FileStorageTest
+from test_binary_tree import BinaryTreeTest
+from test_storage import MemoryStorageTest, FileStorageTest
 
 
 def main():

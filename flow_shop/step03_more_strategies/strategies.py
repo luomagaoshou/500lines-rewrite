@@ -2,8 +2,8 @@ import random
 from collections import UserList
 from functools import partial
 
-from .algorithms import find_neighbors as fn
-from .algorithms import choose_neighbor as cn
+from algorithms import find_neighbors as fn
+from algorithms import choose_neighbor as cn
 
 
 class Strategy:

@@ -2,7 +2,7 @@ import os
 import tempfile
 from unittest import TestCase
 
-from ..db import DB
+from .db import DB
 
 
 class DBTest(TestCase):

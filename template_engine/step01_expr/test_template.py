@@ -1,6 +1,6 @@
 import unittest
 
-from .template import Template, tokenize, Text, Expr
+from template import Template, tokenize, Text, Expr
 
 
 class TokenizeTest(unittest.TestCase):

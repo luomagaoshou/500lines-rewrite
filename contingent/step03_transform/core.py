@@ -1,7 +1,7 @@
 import os
 import pickle
 
-from .utils import find_first
+from utils import find_first
 
 
 class BuildContext:

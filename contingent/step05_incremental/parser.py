@@ -1,7 +1,7 @@
 import re
 
-from .core import AstDoc, AstNode
-from .utils import find_index, get_name_prefix
+from core import AstDoc, AstNode
+from utils import find_index, get_name_prefix
 
 
 def parse_file(file_path) -> AstDoc:

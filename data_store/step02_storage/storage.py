@@ -3,7 +3,7 @@ import pickle
 import struct
 from io import BytesIO
 
-from .binary_tree import ADDR_NONE
+from binary_tree import ADDR_NONE
 
 SIZE_INT = 8
 OFFSET_ROOT, OFFSET_FREE = 0, SIZE_INT

@@ -2,7 +2,7 @@ import os
 import pickle
 from datetime import datetime
 
-from .utils import find_first
+from utils import find_first
 
 
 class BuildContext:

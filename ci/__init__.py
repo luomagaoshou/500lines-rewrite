@@ -1,9 +1,9 @@
 import json
 import os
 
-from .models import Database
-from .scheduler import Scheduler
-from .webserver import WebServer
+from models import Database
+from scheduler import Scheduler
+from webserver import WebServer
 
 
 def read_config():

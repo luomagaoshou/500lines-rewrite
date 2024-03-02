@@ -1,4 +1,4 @@
-from .core import AstDoc, AstNode, Code, BuildContext
+from core import AstDoc, AstNode, Code, BuildContext
 
 
 def transform(doc: AstDoc) -> Code:

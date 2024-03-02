@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from .common import transform_test_file
+from common import transform_test_file
 
 
 def html_lines(title, body_lines):

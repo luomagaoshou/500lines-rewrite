@@ -1,7 +1,7 @@
 import sys
 
-from .project import Project
-from .utils import relative_of
+from project import Project
+from utils import relative_of
 
 
 def main():

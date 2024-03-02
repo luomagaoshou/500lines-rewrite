@@ -5,7 +5,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import *
 
-from ..common.aabb import AABB
+from .common.aabb import AABB
 
 __all__ = ['Shape', 'Plane', 'Sphere', 'Cube', 'Snowball', 'define_shapes']
 

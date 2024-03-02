@@ -5,7 +5,7 @@ from io import BytesIO
 
 import portalocker
 
-from .binary_tree import ADDR_NONE
+from binary_tree import ADDR_NONE
 
 
 SIZE_INT = 8

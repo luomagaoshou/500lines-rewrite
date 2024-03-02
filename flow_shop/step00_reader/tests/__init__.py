@@ -1,6 +1,6 @@
 import unittest
 
-from .test_reader import ReaderTest
+from test_reader import ReaderTest
 
 
 def main():

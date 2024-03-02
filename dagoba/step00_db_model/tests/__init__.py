@@ -1,6 +1,6 @@
 import unittest
 
-from .test_db_model import DbModelTest
+from test_db_model import DbModelTest
 
 
 def main():

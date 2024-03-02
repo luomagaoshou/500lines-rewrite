@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from .common import link_test_file, html_lines
+from common import link_test_file, html_lines
 
 
 class LinkerTest(TestCase):

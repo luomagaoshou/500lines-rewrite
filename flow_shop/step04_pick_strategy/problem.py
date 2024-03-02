@@ -1,10 +1,10 @@
 import random
 import time
 
-from .import params
-from .plan import Plan
-from .strategies import StrategyList
-from .utils import shape
+from import params
+from plan import Plan
+from strategies import StrategyList
+from utils import shape
 
 
 class Problem:

@@ -1,6 +1,6 @@
 import unittest
 
-from .template import Template, TemplateEngine, tokenize, parse_expr, Text, Expr, Comment
+from template import Template, TemplateEngine, tokenize, parse_expr, Text, Expr, Comment
 
 
 class TokenizeTest(unittest.TestCase):
