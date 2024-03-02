@@ -1,9 +1,9 @@
 import os
 from unittest import TestCase
 
-from .core import AstDoc
-from .parser import parse_file
-from .utils import relative_of
+from core import AstDoc
+from parser import parse_file
+from utils import relative_of
 
 
 def parse_test_file(file_name: str) -> AstDoc:

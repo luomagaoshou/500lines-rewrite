@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from .dagoba import Dagoba, LazyQuery
+from dagoba import Dagoba, LazyQuery
 import fixtures
 
 

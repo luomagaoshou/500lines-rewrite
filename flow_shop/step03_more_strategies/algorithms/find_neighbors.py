@@ -1,8 +1,8 @@
 import random
 from itertools import combinations, permutations
 
-from . import params
-from .plan import Plan
+import params
+from plan import Plan
 
 
 def rand(plan, num=1):

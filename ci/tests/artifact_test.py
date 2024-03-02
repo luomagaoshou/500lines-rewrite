@@ -1,6 +1,6 @@
 import unittest
 
-from .webserver import PyLintHandler, UnitTestHandler
+from webserver import PyLintHandler, UnitTestHandler
 
 
 class ArtifactParserTest(unittest.TestCase):

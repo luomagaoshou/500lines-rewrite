@@ -3,7 +3,7 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 
 from shapes import *
-from .common.trackball import Trackball
+from common.trackball import Trackball
 
 
 class Scene:

@@ -1,8 +1,8 @@
-from .core import AstDoc, Code, BuildContext
-from .parser import parse_file
-from .transformer import transform
-from .utils import relative_of, get_name_prefix
-from .linker import link
+from core import AstDoc, Code, BuildContext
+from parser import parse_file
+from transformer import transform
+from utils import relative_of, get_name_prefix
+from linker import link
 
 
 def parse_test_file(file_name: str) -> AstDoc:

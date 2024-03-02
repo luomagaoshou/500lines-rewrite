@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from .plan import Plan
-from . import reader
+from plan import Plan
+import reader
 
 
 class PlanTest(TestCase):

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from . import reader
+import reader
 
 
 class ReaderTest(TestCase):

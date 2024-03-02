@@ -2,7 +2,7 @@ import os
 import tempfile
 from unittest import TestCase
 
-from . import storage
+import storage
 
 
 class MemoryStorageTest(TestCase):
