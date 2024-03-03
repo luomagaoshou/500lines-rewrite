@@ -25,6 +25,8 @@ class Problem:
 
         # Use strategy to find best plan
         while time.time() - start_time < self.time_limit:
+
+            print('time.time() - start_time < self.time_limit', time.time() - start_time,  self.time_limit)
             strategy = self.strategies.pick()
             candidates = strategy.finder(best_plan)
             perm = strategy.chooser(best_plan, candidates)

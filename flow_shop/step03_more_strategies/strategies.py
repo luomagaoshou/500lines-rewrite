@@ -34,4 +34,7 @@ class StrategyList(UserList):
         super().__init__(strategies)
 
     def pick(self):
-        return random.choice(self)
+        res = random.choice(self)
+        print(f'self.__len__(): {self.__len__()}')
+        print(f'pick: {res}')
+        return res
