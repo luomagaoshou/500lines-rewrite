@@ -25,6 +25,7 @@ class Plan:
         if self._makespan is not None:
             return
         num_machines, num_tasks = shape(self.batch)
+        # [print(x) for x in self.batch]
 
         def get_time(row, col):
             if row < 0 or col < 0:
@@ -34,8 +35,52 @@ class Plan:
         self._times = [([0] * num_tasks) for _ in range(num_machines)]
         for i in range(num_machines):
             for j in range(num_tasks):
-                self._times[i][j] = max(get_time(i - 1, j), get_time(i, j - 1))
+
+
+                my_batch = list(zip(*self.batch))
+                my_batch = [my_batch[i] for i in self.perm]
+                my_batch = list(zip(*my_batch))
+
+
+                i_1 = i - 1
+                j_1 = j - 1
+                print('*' * 100)
+                print(f'i: {i},  j-1: {j_1}, i- 1: {i_1}, j: {j}')
+                print(f'time[i-1][j]: {self._times[i_1][j]}')
+                print(f'time[i][j-1]: {self._times[i][j_1]}')
+
+                [print(x) for x in my_batch]
+
+                value_i1_j = get_time(i-1, j)
+                value_i_j1 = get_time(i, j-1)
+
+
+                # print(f'perm: {self.perm}')
+                print(f'batch (i-1)[j]: {0 if i_1 < 0 else my_batch[i_1][j]}')
+                # print(f'perm (j): {my_batch[j]}')
+
+                print(f'batch (i) [j_1]: {0 if j_1 < 0 else my_batch[i][j_1]}')
+                # print(f'perm (j-1): {self.perm[j_1]}')
+                only_task_time_i_1_j = 0 if i_1 < 0 else self.get_task_time(i_1, j)
+                only_task_time_i_j_1 = 0 if j_1 < 0 else self.get_task_time(i, j_1)
+                print(f'task time (i-1, j): {only_task_time_i_1_j}, (i, j-1): {only_task_time_i_j_1}')
+                print(f'get time (i-1, j): {value_i1_j}, (i, j-1): {value_i_j1}')
+
+                value = max(value_i1_j, value_i_j1)
+
+                self._times[i][j] = value
+                print(f'current_value: {value}')
+                [print(x) for x in self._times]
+
+                print('*' * 100)
+                print('')
+
+                #original
+                # value = max(get_time(i - 1, j), get_time(i, j - 1))
+                # self._times[i][j] = value
         self._makespan = self.get_end_time(num_machines - 1, num_tasks - 1)
+
+        [print(x) for x in self._times]
 
     def machine_stats(self):
         num_machines, num_tasks = shape(self.batch)
