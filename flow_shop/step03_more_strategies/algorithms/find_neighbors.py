@@ -1,8 +1,8 @@
 import random
 from itertools import combinations, permutations
 
-import params
-from plan import Plan
+from flow_shop.step03_more_strategies import params
+from flow_shop.step03_more_strategies.plan import Plan
 
 
 def rand(plan, num=1):

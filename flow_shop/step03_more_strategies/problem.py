@@ -1,10 +1,10 @@
 import random
 import time
 
-from import params
-from plan import Plan
-from strategies import StrategyList
-from utils import shape
+from flow_shop.step03_more_strategies import params
+from flow_shop.step03_more_strategies.plan import Plan
+from flow_shop.step03_more_strategies.strategies import StrategyList
+from flow_shop.step03_more_strategies.utils import shape
 
 
 class Problem:

@@ -2,8 +2,8 @@ import random
 from collections import UserList
 from functools import partial
 
-from algorithms import find_neighbors as fn
-from algorithms import choose_neighbor as cn
+from flow_shop.step03_more_strategies.algorithms import find_neighbors as fn
+from flow_shop.step03_more_strategies.algorithms import choose_neighbor as cn
 
 
 class Strategy:

@@ -1,5 +1,5 @@
-import reader
-from utils import shape
+from flow_shop.step03_more_strategies import reader
+from flow_shop.step03_more_strategies.utils import shape
 
 
 class Plan:

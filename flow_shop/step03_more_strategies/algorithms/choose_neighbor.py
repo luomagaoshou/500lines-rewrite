@@ -1,8 +1,8 @@
 import random
 
-from plan import Plan
+# from ..plan import Plan
 
-
+from flow_shop.step03_more_strategies.plan import Plan
 def rand(plan, candidates):
     """Random choose one"""
     return random.choice(candidates)

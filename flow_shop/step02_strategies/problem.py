@@ -1,7 +1,7 @@
 import random
 import time
 
-from import params
+import params
 from plan import Plan
 from strategies import StrategyList
 from utils import shape
