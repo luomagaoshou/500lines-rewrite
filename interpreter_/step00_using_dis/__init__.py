@@ -19,3 +19,6 @@ def main():
     print("\ninstructions:")
     for instruction in dis.get_instructions(code):
         print(instruction.opcode, instruction.opname, instruction.arg, instruction.offset)
+
+if __name__ == '__main__':
+    main()
