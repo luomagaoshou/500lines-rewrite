@@ -1,7 +1,7 @@
 import random
 from itertools import combinations, permutations
 
-import params
+from flow_shop.step05_caching import params
 
 
 def rand(ctx, plan, num=1):

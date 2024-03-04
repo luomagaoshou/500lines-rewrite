@@ -1,5 +1,5 @@
 import reader
-from problem import Problem
+from flow_shop.step05_caching.problem import Problem
 
 
 def main():

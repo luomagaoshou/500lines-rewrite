@@ -1,5 +1,5 @@
-import reader
-from utils import shape
+from flow_shop.step05_caching import reader
+from flow_shop.step05_caching.utils import shape
 
 
 class Plan:
